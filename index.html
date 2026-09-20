@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="John Joseph Decierdo is a student developer in Cebu City, Philippines, building practical software and exploring full-stack development and cybersecurity.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="John Joseph Decierdo — Software, in the making">
+    <meta property="og:description" content="A student developer’s working collection. Explore Caption Deck, the Self-Service Kiosk System, and the thinking behind them.">
+    <meta property="og:url" content="https://johnjosephdecierdo.github.io/">
+    <meta property="og:site_name" content="John Joseph Decierdo">
+    <title>John Joseph Decierdo — Student Developer</title>
+    <link rel="canonical" href="https://johnjosephdecierdo.github.io/">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23191d18'/%3E%3Cpath d='M35 13v27c0 7-5 12-12 12H13v-9h9c3 0 4-1 4-4V13zM43 13h9v39h-9z' fill='%23c7ef78'/%3E%3C/svg%3E">
+    <!-- This local script applies the saved theme before CSS paints.
+       All page content is static HTML and remains available without it. -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> <a class="skip-link" href="#main">Skip to content</a>
+    <div id="page-progress" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header"> <a class="brand" href="#home" aria-label="John Joseph Decierdo, home">jjd<span aria-hidden="true">/</span></a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation"> <a href="#home">Home</a> <a href="#about">About</a> <a href="#work">Work</a> <a href="#skills">Skills</a> <a href="#journey">Journey</a> <a href="#contact">Contact</a> </nav>
+      <div class="header-actions">
+        <button class="theme-button" id="theme-toggle" type="button" hidden> <span class="theme-symbol" aria-hidden="true"></span><span id="theme-label">Theme</span> </button>
+        <a class="header-github" href="https://github.com/JohnJosephDecierdo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+        <button class="menu-button" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>Menu <span aria-hidden="true"><i></i><i></i></span></button>
+      </div>
+    </header>
+    <main id="main">
+
+      <section class="hero wrap" id="home" data-nav aria-labelledby="hero-title">
+        <div class="hero-topline mono"><span>Student developer · Cebu City, Philippines</span><span>Portfolio / 02</span></div>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <h1 id="hero-title" class="hero-name"><span class="name-line"><span>JOHN</span></span><span class="name-line"><span>JOSEPH</span></span><span class="name-line"><span>DECIERDO<span class="name-dot">.</span></span></span></h1>
+            <div class="hero-intro" data-reveal>
+              <p class="hero-statement">A little curiosity.<br>A thing that <em>works.</em></p>
+              <p>I’m a student developer turning ideas into useful software, and learning from what happens along the way.</p>
+              <div class="hero-actions"><a class="button primary" href="#work">Explore the work <span aria-hidden="true">↗</span></a><a class="underlink" href="#about">A little about me <span aria-hidden="true">↓</span></a></div>
+            </div>
+          </div>
+          <figure class="hero-lab">
+            <div class="system-stage" id="system-stage">
+              <div class="stage-top mono"><span>THE SYSTEM STUDY</span><span aria-hidden="true">[ LIVE FORM ]</span></div>
+              <svg class="system-fallback" viewBox="0 0 600 620" fill="none" aria-hidden="true">
+                <g stroke="currentColor" stroke-width="1"> <path d="M80 370 300 165 525 300 305 505Z M80 345 300 140 525 275 305 480Z M80 320 300 115 525 250 305 455Z M80 295 300 90 525 225 305 430Z M80 270 300 65 525 200 305 405Z"/> <path d="M80 270v100m45-140v100m44-141v100m44-140v100m44-141v100m43-140v100m45-73v100m45-73v100m45-73v100m45-73v100m45-73v100M80 270l225 135 220-205M80 295l225 135 220-205M80 320l225 135 220-205M80 345l225 135 220-205"/> </g>
+                <path d="m80 370 220-205 225 135-220 205Z" stroke="#c7ef78" stroke-width="2"/> <circle cx="300" cy="165" r="5" fill="#c7ef78"/><circle cx="305" cy="505" r="5" fill="#c7ef78"/>
+              </svg>
+              <canvas id="system-canvas" aria-hidden="true"></canvas>
+              <div class="stage-bottom mono"><span id="system-mode-label">Flow</span>
+                <button id="visual-motion-toggle" class="motion-button" type="button" aria-pressed="true" hidden><span class="motion-mark" aria-hidden="true"></span><span id="visual-motion-label">Motion on</span></button>
+              </div>
+            </div>
+            <figcaption class="lab-caption"><span>Exploring how parts connect.</span>
+              <div class="mode-controls" role="group" aria-label="System visualization">
+                <button type="button" data-system-mode="flow" aria-pressed="true" disabled>Flow</button>
+                <button type="button" data-system-mode="structure" aria-pressed="false" disabled>Structure</button>
+                <button type="button" data-system-mode="connections" aria-pressed="false" disabled>Connect</button>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="hero-bottom"><span class="mono">3rd-year BSCPE · Cebu Institute of Technology</span><a href="#work" class="scroll-link mono">Take a closer look <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="about wrap section-pad" id="about" data-nav aria-labelledby="about-title">
+        <div class="section-label mono"><span>01 / About</span><span>A person, then a portfolio.</span></div>
+        <div class="about-layout">
+          <div class="about-heading" data-reveal>
+            <h2 id="about-title">I learn by<br><em>making things.</em></h2>
+            <div class="identity">
+              <div class="portrait" role="img" aria-label="John Joseph Decierdo"><span aria-hidden="true">JJD</span></div>
+              <p>John Joseph D. Decierdo<br><span>Cebu City, Philippines</span></p>
+            </div>
+          </div>
+          <div class="about-body" data-reveal>
+            <p class="lead">Sometimes it’s a hobby project. Sometimes it’s a tool that makes a small task easier. Either way, I want to find out how it works.</p>
+            <p>I’m a 3rd-year BSCPE student at Cebu Institute of Technology, building practical applications and creative technical experiments as I work toward software engineering.</p>
+            <p>I use AI to help explore ideas and work through development. It’s an assistant in the process; understanding what I’m building is still the point.</p>
+            <div class="directions"><span class="mono">Currently exploring</span>
+              <ul>
+                <li>Full-stack development</li>
+                <li>Cybersecurity</li>
+                <li>Software engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-pad" id="work" data-nav aria-labelledby="work-title">
+        <div class="wrap">
+          <div class="section-label mono"><span>02 / Selected work</span><span>Two ideas, made tangible.</span></div>
+          <div class="work-intro" data-reveal>
+            <h2 id="work-title">Enough theory.<br><em>Try something.</em></h2>
+            <p>A browser tool and a desktop application.<br>Different ways to make everyday tasks simpler.</p>
+          </div>
+          <article class="caption-project" aria-labelledby="caption-title">
+
+            <header class="project-header" data-reveal>
+              <div>
+                <p class="eyebrow mono">01 / Browser-based video tools</p>
+                <h3 id="caption-title">Caption Deck<span aria-hidden="true">↗</span></h3>
+              </div>
+              <div class="project-actions"><a class="button primary" href="https://johnjosephdecierdo.github.io/Caption-Deck/" target="_blank" rel="noopener noreferrer">Open live app <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><a class="underlink" href="https://github.com/JohnJosephDecierdo/Caption-Deck" target="_blank" rel="noopener noreferrer">View source <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a></div>
+            </header>
+            <div class="project-summary">
+              <p>A caption workflow, from video to export.<br>Transcribe, translate, style, and export captions in the browser.</p>
+              <p class="demo-invitation">Try the sample: play the timeline, switch languages, and change the caption style.</p>
+            </div>
+            <figure class="caption-demo" id="caption-demo" data-caption-style="highlight" data-scene="0" data-reveal="media">
+              <div class="demo-chrome"><span><span class="mini-mark" aria-hidden="true">cc</span> Caption Deck</span><span class="mono">INTERACTIVE CONCEPT</span></div>
+              <fieldset id="caption-controls" disabled>
+                <legend class="sr-only">Caption Deck sample controls</legend>
+                <div class="caption-workspace">
+                  <div class="caption-screen">
+                    <div class="screen-meta mono"><span>A short study in making</span><span>01 — 03</span></div>
+                    <div class="film-art" aria-hidden="true">
+                      <div class="film-grid"></div>
+                      <div class="film-ring"></div>
+                      <div class="scene-word" data-scene-word="0">A small<br><em>idea.</em></div>
+                      <div class="scene-word" data-scene-word="1">A little<br><em>curiosity.</em></div>
+                      <div class="scene-word" data-scene-word="2">Something<br><em>useful.</em></div>
+                      <span class="film-corner">↗</span>
+                    </div>
+                    <div class="subtitle-container">
+                      <p id="caption-output" lang="en">A small idea.</p>
+                    </div>
+                    <span class="frame-note mono">12-second typography study</span>
+                  </div>
+                  <div class="caption-inspector"> <label class="control-label" for="caption-language">Caption language</label>
+                    <select id="caption-language">
+                      <option value="en">English</option>
+                      <option value="fil">Filipino</option>
+                      <option value="es">Spanish</option>
+                    </select>
+                    <span class="control-label style-label" id="caption-style-label">Caption style</span>
+                    <div class="style-controls" role="group" aria-labelledby="caption-style-label">
+                      <button type="button" data-caption-style="clean" aria-pressed="false">Clean</button>
+                      <button type="button" data-caption-style="highlight" aria-pressed="true">Highlight</button>
+                    </div>
+                    <div class="cue-heading mono">The caption track</div>
+                    <div class="cue-list">
+                      <button class="cue" type="button" data-cue="0" aria-pressed="true"><span class="cue-time mono">00:00 — 00:04</span><span class="cue-text">A small idea.</span></button>
+                      <button class="cue" type="button" data-cue="1" aria-pressed="false"><span class="cue-time mono">00:04 — 00:08</span><span class="cue-text">A little curiosity.</span></button>
+                      <button class="cue" type="button" data-cue="2" aria-pressed="false"><span class="cue-time mono">00:08 — 00:12</span><span class="cue-text">Something useful.</span></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="caption-transport">
+                  <button type="button" id="caption-play" class="play-button"><span class="play-icon" aria-hidden="true"></span><span id="caption-play-label">Play sample</span></button>
+                  <label for="caption-scrubber" class="sr-only">Sample timeline in seconds</label>
+                  <div class="scrubber-wrap"><input id="caption-scrubber" type="range" min="0" max="12" step="0.01" value="0">
+                    <div class="track-segments" aria-hidden="true"><span>IDEA</span><span>CURIOSITY</span><span>USEFUL</span></div>
+                  </div>
+                  <span class="time-display mono" id="caption-time">00:00 / 00:12</span>
+                </div>
+              </fieldset>
+              <figcaption><span>Portfolio simulation with fixed sample captions and translations. Not a screenshot or live transcription.</span><span class="mono">Explore the real app above ↗</span></figcaption>
+            </figure>
+            <div class="case-notes">
+              <div>
+                <h4 class="mono">What it brings together</h4>
+                <p>Whisper-based browser transcription, translation, caption styling, and SRT/VTT subtitle handling.</p>
+              </div>
+              <div>
+                <h4 class="mono">How it is built</h4>
+                <p>HTML, JavaScript, Transformers.js, and browser APIs. Video processing, a service worker, and a web app manifest, deployed through GitHub Pages.</p>
+              </div>
+            </div>
+          </article>
+          <article class="kiosk-project" aria-labelledby="kiosk-title">
+            <div class="kiosk-story" data-reveal>
+              <p class="eyebrow mono">02 / Desktop application</p>
+              <h3 id="kiosk-title">Less waiting.<br><em>More ordering.</em></h3>
+              <p class="project-name">Self-Service Kiosk System</p>
+              <p>A self-service ordering application for fast-food establishments, designed around efficiency, accuracy, and customer convenience.</p>
+              <p>C# and Windows Forms for the desktop interface. Microsoft Access for data, with an object-oriented approach.</p>
+              <a class="underlink" href="https://github.com/JohnJosephDecierdo/Self-Service-Kiosk-System" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            </div>
+            <figure class="kiosk-demo" id="kiosk-demo" data-reveal="media">
+              <div class="kiosk-top"><span class="kiosk-emblem" aria-hidden="true">✳</span><span>A LITTLE TASTE<br>OF THE INTERFACE.</span><span class="mono">CONCEPT<br>ONLY</span></div>
+              <fieldset id="kiosk-controls" disabled>
+                <legend class="sr-only">Kiosk sample ordering controls</legend>
+                <div class="kiosk-layout">
+                  <div class="menu-board">
+                    <h4>What sounds<br><em>good today?</em></h4>
+                    <div class="category-controls" role="group" aria-label="Menu category">
+                      <button type="button" data-category="all" aria-pressed="true">All</button>
+                      <button type="button" data-category="mains" aria-pressed="false">Mains</button>
+                      <button type="button" data-category="sides" aria-pressed="false">Sides</button>
+                      <button type="button" data-category="drinks" aria-pressed="false">Drinks</button>
+                    </div>
+                    <div class="product-menu">
+                      <button class="menu-product burger" type="button" data-item="burger" data-product-category="mains" aria-label="Add Classic burger to sample order"><span class="food-glyph" aria-hidden="true">B.</span><span class="food-name">Classic burger</span><span class="add-mark" aria-hidden="true">+</span></button>
+                      <button class="menu-product fries" type="button" data-item="fries" data-product-category="sides" aria-label="Add Golden fries to sample order"><span class="food-glyph" aria-hidden="true">F.</span><span class="food-name">Golden fries</span><span class="add-mark" aria-hidden="true">+</span></button>
+                      <button class="menu-product drink" type="button" data-item="drink" data-product-category="drinks" aria-label="Add Cold drink to sample order"><span class="food-glyph" aria-hidden="true">D.</span><span class="food-name">Cold drink</span><span class="add-mark" aria-hidden="true">+</span></button>
+                    </div>
+                  </div>
+                  <aside class="order-tray" aria-label="Sample order">
+                    <div class="tray-heading">
+                      <h4>Your tray</h4>
+                      <span aria-hidden="true">↙</span>
+                    </div>
+                    <ul id="order-items">
+                      <li class="order-empty">Something good starts here.<br>Choose an item from the menu.</li>
+                    </ul>
+                    <div class="tray-total"><span>In your order</span><strong id="order-count">0 items</strong></div>
+                    <button class="reset-order" id="clear-order" type="button" disabled>Reset order <span aria-hidden="true">↺</span></button>
+                    <p class="tray-note">Just a sample. No purchase.</p>
+                  </aside>
+                </div>
+              </fieldset>
+              <p id="order-status" class="sr-only" role="status" aria-live="polite"></p>
+              <figcaption>Interactive portfolio concept with sample menu items. Not the actual Windows application.</figcaption>
+            </figure>
+          </article>
+          <noscript>
+            <p class="no-script-note">The project examples are shown in their resting state. Enable JavaScript to try them, or use the project links to explore the original work.</p>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="skills wrap section-pad" id="skills" data-nav aria-labelledby="skills-title">
+        <div class="section-label mono"><span>03 / The toolkit</span><span>Learned through making.</span></div>
+        <div class="skills-layout">
+          <div class="skills-heading" data-reveal>
+            <h2 id="skills-title">Tools change.<br><em>Curiosity stays.</em></h2>
+            <p>What I use and continue to learn.<br>Each project adds a little more context.</p>
+          </div>
+          <div class="skill-list" data-reveal>
+            <details class="skill-group" open>
+              <summary><span class="skill-number mono" aria-hidden="true">01</span><span class="skill-category">Programming</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+              <ul>
+                <li>C</li>
+                <li>C#</li>
+                <li>JavaScript</li>
+              </ul>
+            </details>
+            <details class="skill-group" open>
+              <summary><span class="skill-number mono" aria-hidden="true">02</span><span class="skill-category">Web</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Browser APIs</li>
+                <li>Transformers.js</li>
+              </ul>
+            </details>
+            <details class="skill-group" open>
+              <summary><span class="skill-number mono" aria-hidden="true">03</span><span class="skill-category">Data</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+              <ul>
+                <li>Supabase</li>
+                <li>Microsoft Access</li>
+              </ul>
+            </details>
+            <details class="skill-group" open>
+              <summary><span class="skill-number mono" aria-hidden="true">04</span><span class="skill-category">Desktop</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+              <ul>
+                <li>Windows Forms</li>
+              </ul>
+            </details>
+            <details class="skill-group" open>
+              <summary><span class="skill-number mono" aria-hidden="true">05</span><span class="skill-category">Tools &amp; Deployment</span><span class="disclosure-mark" aria-hidden="true">+</span></summary>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>GitHub</li>
+                <li>GitHub Pages</li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey section-pad" id="journey" data-nav aria-labelledby="journey-title">
+        <div class="wrap">
+          <div class="section-label mono"><span>04 / In the making</span><span>A direction, not a finish line.</span></div>
+          <div class="journey-layout">
+            <div class="journey-heading" data-reveal>
+              <h2 id="journey-title">The next bit<br>is <em>unwritten.</em></h2>
+              <p>Education gives me a foundation.<br>Projects give me questions to take further.</p>
+              <aside class="certification"><span class="certificate-icon" aria-hidden="true">↗</span><span class="mono">Certification</span>
+                <h3>Getting Started with<br>Cisco Packet Tracer</h3>
+                <p>Cisco Networking Academy</p>
+              </aside>
+            </div>
+            <ol class="journey-list" id="journey-line">
+              <li class="journey-step"><span class="step-number mono">01</span>
+                <div><span class="mono step-type">The foundation</span>
+                  <h3>Student developer.</h3>
+                  <p>Cebu Institute of Technology<br>3rd Year · BSCPE</p>
+                </div>
+              </li>
+              <li class="journey-step"><span class="step-number mono">02</span>
+                <div><span class="mono step-type">Building for the browser</span>
+                  <h3>Caption Deck.</h3>
+                  <p>Captioning and translation, brought together in a browser-based video tool.</p>
+                </div>
+              </li>
+              <li class="journey-step"><span class="step-number mono">03</span>
+                <div><span class="mono step-type">Thinking in desktop systems</span>
+                  <h3>Self-Service Kiosk System.</h3>
+                  <p>An ordering application built with C# Windows Forms and Microsoft Access.</p>
+                </div>
+              </li>
+              <li class="journey-step"><span class="step-number mono">04</span>
+                <div><span class="mono step-type">Exploring what connects</span>
+                  <h3>Full-stack &amp; cybersecurity.</h3>
+                  <p>Learning how the parts fit together, and becoming more curious about how to protect them.</p>
+                </div>
+              </li>
+              <li class="journey-step"><span class="step-number mono">05</span>
+                <div><span class="mono step-type">The direction</span>
+                  <h3>Software engineering.</h3>
+                  <p>Keep learning. Keep making things that help.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact wrap section-pad" id="contact" data-nav aria-labelledby="contact-title">
+        <div class="section-label mono"><span>05 / Say hello</span><span>Good ideas welcome.</span></div>
+        <div class="contact-head" data-reveal>
+          <h2 id="contact-title">LET’S MAKE<br>SOMETHING<br><em>USEFUL.</em></h2>
+          <a class="contact-arrow" href="mailto:johnjosephdecierdo5@gmail.com" aria-label="Email John Joseph Decierdo"><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-bottom">
+          <p>An idea, a question, or a project to talk through.<br>I’m an email away.</p>
+          <div class="contact-links"><a class="email-link" href="mailto:johnjosephdecierdo5@gmail.com">johnjosephdecierdo5@gmail.com <span aria-hidden="true">↗</span></a>
+            <div class="contact-secondary">
+              <button class="underlink" id="copy-email" type="button" hidden>Copy email <span aria-hidden="true">⧉</span></button>
+              <a class="underlink" href="https://github.com/JohnJosephDecierdo" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            </div>
+            <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap"><a class="brand" href="#home" aria-label="John Joseph Decierdo, back to top">jjd<span aria-hidden="true">/</span></a>
+      <p>John Joseph Decierdo<br><span>Cebu City, Philippines</span></p>
+      <a class="back-top mono" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+    <div id="cursor-ring" aria-hidden="true"></div>
+  </body>
+</html>
